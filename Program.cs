@@ -1,6 +1,6 @@
 ﻿string[] FillArray(int n)
 {
-    string[] array = new string[4] {"1234", "1567", "-2", "computer science"};
+    string[] array = new string[4] {"1234", "15678", "-2", "computer science"};
     return array;
 }
 
@@ -19,7 +19,7 @@ string[] PrintArray(string[] array)
     {
         if(array[i].Length <= 3)
         {
-            Console.Write(array[i]);
+            Console.Write(array[i]+" ");
         }
         else Console.Write("");
 
