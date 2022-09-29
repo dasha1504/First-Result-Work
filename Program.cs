@@ -10,6 +10,8 @@ for(int i=0; i<array.Length;i++)
 {
     Console.WriteLine(array[i]);
 }
+Console.WriteLine();
+Console.WriteLine("RESULT");
 string[] PrintArray(string[] array)
 {
     string[] array2 = new string[4];
